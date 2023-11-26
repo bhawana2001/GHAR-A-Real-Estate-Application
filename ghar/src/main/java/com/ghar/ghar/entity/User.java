@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.hibernate.annotations.CreationTimestamp;
 
 import java.util.Date;
 
@@ -22,6 +23,9 @@ public class User {
     private String username;
     private String email;
     private String password;
+    @CreationTimestamp
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "registration_date", updatable = false)
     private Date registrationDate;
     private String profilePicture;
 
