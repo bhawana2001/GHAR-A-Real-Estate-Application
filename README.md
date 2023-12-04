@@ -1,2 +1,2 @@
 # GHAR-A-Real-Estate-Application
-GHAR: Leveraging Spring Boot, ReactJS, MySQL, and Cutting-edge Libraries
+GHAR: Leveraging Spring Boot, ReactJS, MySQL, and Cutting-edge Libraries...
